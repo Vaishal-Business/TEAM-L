@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Programming Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/8cb707a9b8a73f8a7403336b861c3074?family=BubbledotICG-FinePos"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="deck"><video class="bg-video" autoplay muted loop playsinline></video>
+        <div id="veil"></div>
+        <div id="bar"></div>
+        <main id="stage"></main>
+        <header><button id="logo" aria-label="Go to first slide"><img></button>
+            <div id="slide-name"></div>
+            <div id="team"></div>
+        </header>
+        <footer>
+            <div id="progress"></div>
+            <div id="hint">← → to navigate · Space for next step</div>
+            <div class="controls"><button id="prev">←</button><button id="next">→</button><button
+                    id="overviewBtn">⌘</button><button id="full">⛶</button></div>
+        </footer>
+        <div id="overview"></div>
+        <div id="rotate">Rotate your device<br><small>This deck is made for landscape.</small></div>
+    </div>
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
